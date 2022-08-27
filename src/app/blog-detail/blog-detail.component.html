@@ -1,0 +1,16 @@
+<div class="card mb-3 " style="max-width: 540px;">
+    <div class="row">
+        <div class="col-md-8">
+            <img src="assets/img/{{blog.imgUrl}}"  class="img-fluid rounded-start">
+        </div>
+        <div class="col-md-4">
+            <div class="card-body">
+                <h5 class="card-title">{{blog.title}}</h5>
+                <p class="card-text">{{blog.description}}</p>
+                <button type="submit" (click)="deleteBlog()" class="btn btn-danger">Delete</button><br><br>
+                <a routerLink="/update/{{blog.id}}" class="btn btn-primary" >update</a>
+                
+            </div>
+        </div>
+    </div>
+</div>

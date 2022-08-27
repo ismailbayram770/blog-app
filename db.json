@@ -1,0 +1,76 @@
+{
+  "blogs": [
+    {
+      "id": 3,
+      "title": "Sanat",
+      "description": "de",
+      "imgUrl": "3.jpg",
+      "categoryId": 3,
+      "writingDate": "24/07/2022",
+      "readcount": 3
+    },
+    {
+      "id": 4,
+      "title": "Spor",
+      "description": "Spor",
+      "imgUrl": "4.jpg",
+      "categoryId": 4,
+      "writingDate": "23/07/2022",
+      "readcount": 0
+    },
+    {
+      "id": 5,
+      "title": "yaşam",
+      "description": "yaşam",
+      "imgUrl": "1.jpg",
+      "categoryId": 4,
+      "writingDate": "22/07/2022",
+      "readcount": 0
+    },
+    {
+      "id": 6,
+      "title": "spor",
+      "description": "spor",
+      "imgUrl": "3.jpg",
+      "categoryId": "2",
+      "writingDate": "25/07/2022",
+      "readcount": 0
+    },
+    {
+      "id": 7,
+      "title": "spor",
+      "description": "spor",
+      "imgUrl": "4.jpg",
+      "categoryId": "4",
+      "writingDate": "28/07/2022",
+      "readcount": 0
+    },
+    {
+      "id": 8,
+      "title": "de",
+      "description": "de",
+      "imgUrl": "5.jpg",
+      "categoryId": "1",
+      "writingDate": "28/07/2022",
+      "readcount": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Teknoloji"
+    },
+    {
+      "id": 2,
+      "name": "Spor"
+    },
+    {
+      "id": 3,
+      "name": "Sanat"
+    },
+    {
+      "id": 4,
+      "name": "Yaşam"
+    }
+  ]
+}

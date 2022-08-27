@@ -1,0 +1,18 @@
+<div *ngIf="blogs.length>0; else alert">
+    
+    <div class="card mb-5" *ngFor="let item of blogs">
+        <img src="assets/img/{{item.imgUrl}}" alt="" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <a routerLink="/blogs/{{item.id}}"   class="btn btn-primary">Detay</a>
+        </div>
+    </div>
+</div>
+
+
+<ng-template #alert>
+    <div class="alert alert-warning">
+        <p>Kayıt Bulunamadı</p>
+    </div>
+</ng-template>

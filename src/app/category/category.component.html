@@ -1,0 +1,6 @@
+<div class="card">
+    <ul class="list-group list-group-flush">
+      <li routerLink="blogs" class="list-group-item bg-primary" style="color: white;" >Tüm kategoriler</li>
+      <li routerLink="/blogs/category/{{item.id}}" class="list-group-item" *ngFor="let item of categoies">{{item.name}}</li>
+    </ul>
+</div>
